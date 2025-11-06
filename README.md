@@ -6,7 +6,7 @@ This repository contains a JUCE-based stereo dynamics processor inspired by clas
 - **Comp** – CLA2A-style compression intensity mapped to threshold, ratio, and time constants.
 - **De-esser** – Optional high-frequency attenuation that can be toggled on/off.
 
-The project is configured for Visual Studio through JUCE's CMake workflow. Build targets include VST3 and a standalone application.
+The project is configured for Visual Studio through JUCE's CMake workflow. Build targets include VST3 and a standalone application, with the VST3 build tagged for effect (FX) hosts so it shows up with dynamics processors rather than instruments.
 
 ## Getting Started
 

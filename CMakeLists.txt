@@ -23,6 +23,7 @@ juce_add_plugin(CLA2AStyle
     PLUGIN_MANUFACTURER_CODE GPTA
     PLUGIN_CODE ClA2
     FORMATS VST3 Standalone
+    VST3_CATEGORIES "Fx|Dynamics|Compressor"
     PRODUCT_NAME "CLA2A Style"
 )
 
