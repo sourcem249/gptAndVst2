@@ -249,3 +249,8 @@ juce::AudioProcessorEditor* CLA2AStyleAudioProcessor::createEditor()
 {
     return new CLA2AStyleAudioProcessorEditor(*this);
 }
+
+juce::AudioProcessor* JUCE_CALLTYPE createPluginFilter()
+{
+    return new CLA2AStyleAudioProcessor();
+}
